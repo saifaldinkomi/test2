@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+}
+body{
+    height: 100vh;
+    
+}
+.navbar{
+  
+    position: sticky;
+    top: 0;
+    
+}
+.container{
+    width: 80%;
+    margin: auto;
+   
+}
+.navContent{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+.logoDiv{
+    width: 200px;
+}
+.logoDiv img{
+    width: 100%;
+}
+.navItems{
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+.navItem{
+    list-style: none;
+    padding-left: 1rem;
+    
+}
+.bodecontent{
+    width: 100%;
+    height: 100vh;
+    background-image: url(backgroond.jpg);
+    background-size: cover;
+    
+}
+.contener{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+.container title{
+    font-size: small;
+}
+.footer{
+    background-color: #151515;
+}
+.footer .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+.conticon{
+    display: flex;
+    
+}
+.conticon .icon{
+    display: inline-block;
+    width: 100px;
+}
+
+.icon img{
+    width: 100%;
+}
+
+.imgdiv .container {
+   display: flex;
+   justify-content: space-around;
+   flex-wrap: wrap;
+   }
+.imgdiv .container .item {
+    width: 33%;
+   box-sizing: border-box;
+   padding: 10px;
+}
+.imgdiv .container .item img{
+    width: 100%;
+   
+   
+}
+
